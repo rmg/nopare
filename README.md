@@ -1,24 +1,9 @@
-# Nopare
+# nopare [![Build Status](https://travis-ci.org/rmg/nopare.svg?branch=master)](https://travis-ci.org/rmg/nopare)
 
-**TODO: Add description**
+A simple Node.js package registry intended to be compatible with npmjs.org for
+the most common operations (`npm install`, `npm publish`).
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
-
-  1. Add `nopare` to your list of dependencies in `mix.exs`:
-
-    ```elixir
-    def deps do
-      [{:nopare, "~> 0.1.0"}]
-    end
-    ```
-
-  2. Ensure `nopare` is started before your application:
-
-    ```elixir
-    def application do
-      [applications: [:nopare]]
-    end
-    ```
-
+**TODO:** figure out how Elixir/Erlang/OTP applications are distributed and
+installed/deployed.
